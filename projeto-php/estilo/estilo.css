@@ -1,0 +1,80 @@
+body{
+    background-color: #ddd;
+    font-family: Tohoma;
+}
+.pequeno{
+    font-size: 15px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pesquisa{
+    font-size: 14px;
+    text-align: right;
+}
+#corpo{
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #777;
+}
+.listagem{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.listagem tr{
+    height: 50px;
+}
+.listagem td{
+    padding: 10px;
+}
+.listagem tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.listagem td:nth-child(1){
+    width: 50px;
+}
+.listagem td:nth-child(3){
+    width: 90px;
+}
+#detalhes{
+    width: 100%;
+}
+#detalhes td{
+    padding: 10px;
+    vertical-align: top;
+}
+.grande{
+    height: 400px;
+}
+.foto-mini{
+    width: 50px;
+}
+.sucesso{
+    padding: 7px 14px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    background-color: rgba(107, 151, 107, 0.712);
+    color: rgb(8, 131, 8);
+}
+.aviso{
+    padding: 7px 14px;
+    margin-bottom: 12px;
+    border-radius: 14px;
+    background-color:rgb(209, 206, 4) ;
+    color:rgba(37, 37, 3, 0.603) ;
+}
+.erro{
+    padding: 7px 14px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    background-color: rgba(129, 58, 58, 0.418);
+    color: rgb(131, 8, 18);
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
